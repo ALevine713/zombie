@@ -14,6 +14,16 @@
 		2762CE911EC62F1D002F5D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2762CE8F1EC62F1D002F5D42 /* LaunchScreen.storyboard */; };
 		2762CE9C1EC62F1E002F5D42 /* ZobmbieGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CE9B1EC62F1E002F5D42 /* ZobmbieGameTests.swift */; };
 		2762CEA71EC62F1E002F5D42 /* ZobmbieGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CEA61EC62F1E002F5D42 /* ZobmbieGameUITests.swift */; };
+		2762CEB91EC63CEE002F5D42 /* 18940095-cartoon-zombie-with-arm-eaten-off-isolated-on-white-stock-vector_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762CEB51EC63CEE002F5D42 /* 18940095-cartoon-zombie-with-arm-eaten-off-isolated-on-white-stock-vector_720.jpg */; };
+		2762CEBA1EC63CEE002F5D42 /* bigstock-cartoon-zombie-isolated-on-whi-15129581_720.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762CEB61EC63CEE002F5D42 /* bigstock-cartoon-zombie-isolated-on-whi-15129581_720.jpg */; };
+		2762CEBB1EC63CEE002F5D42 /* latemioceneformation_720.png in Resources */ = {isa = PBXBuildFile; fileRef = 2762CEB71EC63CEE002F5D42 /* latemioceneformation_720.png */; };
+		2762CEBC1EC63CEE002F5D42 /* map-29903_640_480.png in Resources */ = {isa = PBXBuildFile; fileRef = 2762CEB81EC63CEE002F5D42 /* map-29903_640_480.png */; };
+		2762CEBE1EC64006002F5D42 /* SecondStoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CEBD1EC64006002F5D42 /* SecondStoryPage.swift */; };
+		2762CEC01EC6402B002F5D42 /* ThirdStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CEBF1EC6402B002F5D42 /* ThirdStory.swift */; };
+		2762CEC21EC64077002F5D42 /* FourthStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CEC11EC64077002F5D42 /* FourthStory.swift */; };
+		2762CEC41EC640AB002F5D42 /* FifthStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CEC31EC640AB002F5D42 /* FifthStory.swift */; };
+		2762CEC61EC65052002F5D42 /* GamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CEC51EC65052002F5D42 /* GamePlay.swift */; };
+		2780396C1EC65C3F00090314 /* ActionChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2780396B1EC65C3F00090314 /* ActionChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		2762CEA21EC62F1E002F5D42 /* ZobmbieGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZobmbieGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2762CEA61EC62F1E002F5D42 /* ZobmbieGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZobmbieGameUITests.swift; sourceTree = "<group>"; };
 		2762CEA81EC62F1E002F5D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2762CEB51EC63CEE002F5D42 /* 18940095-cartoon-zombie-with-arm-eaten-off-isolated-on-white-stock-vector_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "18940095-cartoon-zombie-with-arm-eaten-off-isolated-on-white-stock-vector_720.jpg"; sourceTree = "<group>"; };
+		2762CEB61EC63CEE002F5D42 /* bigstock-cartoon-zombie-isolated-on-whi-15129581_720.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bigstock-cartoon-zombie-isolated-on-whi-15129581_720.jpg"; sourceTree = "<group>"; };
+		2762CEB71EC63CEE002F5D42 /* latemioceneformation_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = latemioceneformation_720.png; sourceTree = "<group>"; };
+		2762CEB81EC63CEE002F5D42 /* map-29903_640_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-29903_640_480.png"; sourceTree = "<group>"; };
+		2762CEBD1EC64006002F5D42 /* SecondStoryPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondStoryPage.swift; sourceTree = "<group>"; };
+		2762CEBF1EC6402B002F5D42 /* ThirdStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdStory.swift; sourceTree = "<group>"; };
+		2762CEC11EC64077002F5D42 /* FourthStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthStory.swift; sourceTree = "<group>"; };
+		2762CEC31EC640AB002F5D42 /* FifthStory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthStory.swift; sourceTree = "<group>"; };
+		2762CEC51EC65052002F5D42 /* GamePlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlay.swift; sourceTree = "<group>"; };
+		2780396B1EC65C3F00090314 /* ActionChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +117,16 @@
 		2762CE851EC62F1D002F5D42 /* ZobmbieGame */ = {
 			isa = PBXGroup;
 			children = (
+				2762CEB41EC63B5B002F5D42 /* Images */,
 				2762CE861EC62F1D002F5D42 /* AppDelegate.swift */,
 				2762CE881EC62F1D002F5D42 /* ViewController.swift */,
 				2762CE8A1EC62F1D002F5D42 /* Main.storyboard */,
+				2780396B1EC65C3F00090314 /* ActionChoice.swift */,
+				2762CEC31EC640AB002F5D42 /* FifthStory.swift */,
+				2762CEC11EC64077002F5D42 /* FourthStory.swift */,
+				2762CEBF1EC6402B002F5D42 /* ThirdStory.swift */,
+				2762CEBD1EC64006002F5D42 /* SecondStoryPage.swift */,
+				2762CEC51EC65052002F5D42 /* GamePlay.swift */,
 				2762CE8D1EC62F1D002F5D42 /* Assets.xcassets */,
 				2762CE8F1EC62F1D002F5D42 /* LaunchScreen.storyboard */,
 				2762CE921EC62F1D002F5D42 /* Info.plist */,
@@ -123,6 +150,18 @@
 				2762CEA81EC62F1E002F5D42 /* Info.plist */,
 			);
 			path = ZobmbieGameUITests;
+			sourceTree = "<group>";
+		};
+		2762CEB41EC63B5B002F5D42 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2762CEB51EC63CEE002F5D42 /* 18940095-cartoon-zombie-with-arm-eaten-off-isolated-on-white-stock-vector_720.jpg */,
+				2762CEB61EC63CEE002F5D42 /* bigstock-cartoon-zombie-isolated-on-whi-15129581_720.jpg */,
+				2762CEB71EC63CEE002F5D42 /* latemioceneformation_720.png */,
+				2762CEB81EC63CEE002F5D42 /* map-29903_640_480.png */,
+			);
+			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +271,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2762CEBB1EC63CEE002F5D42 /* latemioceneformation_720.png in Resources */,
 				2762CE911EC62F1D002F5D42 /* LaunchScreen.storyboard in Resources */,
+				2762CEB91EC63CEE002F5D42 /* 18940095-cartoon-zombie-with-arm-eaten-off-isolated-on-white-stock-vector_720.jpg in Resources */,
+				2762CEBC1EC63CEE002F5D42 /* map-29903_640_480.png in Resources */,
 				2762CE8E1EC62F1D002F5D42 /* Assets.xcassets in Resources */,
 				2762CE8C1EC62F1D002F5D42 /* Main.storyboard in Resources */,
+				2762CEBA1EC63CEE002F5D42 /* bigstock-cartoon-zombie-isolated-on-whi-15129581_720.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2762CEC21EC64077002F5D42 /* FourthStory.swift in Sources */,
+				2762CEBE1EC64006002F5D42 /* SecondStoryPage.swift in Sources */,
 				2762CE891EC62F1D002F5D42 /* ViewController.swift in Sources */,
+				2762CEC41EC640AB002F5D42 /* FifthStory.swift in Sources */,
 				2762CE871EC62F1D002F5D42 /* AppDelegate.swift in Sources */,
+				2762CEC01EC6402B002F5D42 /* ThirdStory.swift in Sources */,
+				2780396C1EC65C3F00090314 /* ActionChoice.swift in Sources */,
+				2762CEC61EC65052002F5D42 /* GamePlay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +556,7 @@
 				2762CEAD1EC62F1E002F5D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2762CEAE1EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGameTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +565,7 @@
 				2762CEB01EC62F1E002F5D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2762CEB11EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +574,7 @@
 				2762CEB31EC62F1E002F5D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
