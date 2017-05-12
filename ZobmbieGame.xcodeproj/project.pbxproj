@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2762CE871EC62F1D002F5D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CE861EC62F1D002F5D42 /* AppDelegate.swift */; };
+		2762CE891EC62F1D002F5D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CE881EC62F1D002F5D42 /* ViewController.swift */; };
+		2762CE8C1EC62F1D002F5D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2762CE8A1EC62F1D002F5D42 /* Main.storyboard */; };
+		2762CE8E1EC62F1D002F5D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2762CE8D1EC62F1D002F5D42 /* Assets.xcassets */; };
+		2762CE911EC62F1D002F5D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2762CE8F1EC62F1D002F5D42 /* LaunchScreen.storyboard */; };
+		2762CE9C1EC62F1E002F5D42 /* ZobmbieGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CE9B1EC62F1E002F5D42 /* ZobmbieGameTests.swift */; };
+		2762CEA71EC62F1E002F5D42 /* ZobmbieGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762CEA61EC62F1E002F5D42 /* ZobmbieGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2762CE981EC62F1E002F5D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2762CE7B1EC62F1D002F5D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2762CE821EC62F1D002F5D42;
+			remoteInfo = ZobmbieGame;
+		};
+		2762CEA31EC62F1E002F5D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2762CE7B1EC62F1D002F5D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2762CE821EC62F1D002F5D42;
+			remoteInfo = ZobmbieGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2762CE831EC62F1D002F5D42 /* ZobmbieGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZobmbieGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2762CE861EC62F1D002F5D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2762CE881EC62F1D002F5D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2762CE8B1EC62F1D002F5D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2762CE8D1EC62F1D002F5D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2762CE901EC62F1D002F5D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2762CE921EC62F1D002F5D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2762CE971EC62F1E002F5D42 /* ZobmbieGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZobmbieGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2762CE9B1EC62F1E002F5D42 /* ZobmbieGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZobmbieGameTests.swift; sourceTree = "<group>"; };
+		2762CE9D1EC62F1E002F5D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2762CEA21EC62F1E002F5D42 /* ZobmbieGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZobmbieGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2762CEA61EC62F1E002F5D42 /* ZobmbieGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZobmbieGameUITests.swift; sourceTree = "<group>"; };
+		2762CEA81EC62F1E002F5D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2762CE801EC62F1D002F5D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762CE941EC62F1E002F5D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762CE9F1EC62F1E002F5D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2762CE7A1EC62F1D002F5D42 = {
+			isa = PBXGroup;
+			children = (
+				2762CE851EC62F1D002F5D42 /* ZobmbieGame */,
+				2762CE9A1EC62F1E002F5D42 /* ZobmbieGameTests */,
+				2762CEA51EC62F1E002F5D42 /* ZobmbieGameUITests */,
+				2762CE841EC62F1D002F5D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2762CE841EC62F1D002F5D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2762CE831EC62F1D002F5D42 /* ZobmbieGame.app */,
+				2762CE971EC62F1E002F5D42 /* ZobmbieGameTests.xctest */,
+				2762CEA21EC62F1E002F5D42 /* ZobmbieGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2762CE851EC62F1D002F5D42 /* ZobmbieGame */ = {
+			isa = PBXGroup;
+			children = (
+				2762CE861EC62F1D002F5D42 /* AppDelegate.swift */,
+				2762CE881EC62F1D002F5D42 /* ViewController.swift */,
+				2762CE8A1EC62F1D002F5D42 /* Main.storyboard */,
+				2762CE8D1EC62F1D002F5D42 /* Assets.xcassets */,
+				2762CE8F1EC62F1D002F5D42 /* LaunchScreen.storyboard */,
+				2762CE921EC62F1D002F5D42 /* Info.plist */,
+			);
+			path = ZobmbieGame;
+			sourceTree = "<group>";
+		};
+		2762CE9A1EC62F1E002F5D42 /* ZobmbieGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				2762CE9B1EC62F1E002F5D42 /* ZobmbieGameTests.swift */,
+				2762CE9D1EC62F1E002F5D42 /* Info.plist */,
+			);
+			path = ZobmbieGameTests;
+			sourceTree = "<group>";
+		};
+		2762CEA51EC62F1E002F5D42 /* ZobmbieGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2762CEA61EC62F1E002F5D42 /* ZobmbieGameUITests.swift */,
+				2762CEA81EC62F1E002F5D42 /* Info.plist */,
+			);
+			path = ZobmbieGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2762CE821EC62F1D002F5D42 /* ZobmbieGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2762CEAB1EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGame" */;
+			buildPhases = (
+				2762CE7F1EC62F1D002F5D42 /* Sources */,
+				2762CE801EC62F1D002F5D42 /* Frameworks */,
+				2762CE811EC62F1D002F5D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZobmbieGame;
+			productName = ZobmbieGame;
+			productReference = 2762CE831EC62F1D002F5D42 /* ZobmbieGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2762CE961EC62F1E002F5D42 /* ZobmbieGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2762CEAE1EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGameTests" */;
+			buildPhases = (
+				2762CE931EC62F1E002F5D42 /* Sources */,
+				2762CE941EC62F1E002F5D42 /* Frameworks */,
+				2762CE951EC62F1E002F5D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2762CE991EC62F1E002F5D42 /* PBXTargetDependency */,
+			);
+			name = ZobmbieGameTests;
+			productName = ZobmbieGameTests;
+			productReference = 2762CE971EC62F1E002F5D42 /* ZobmbieGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2762CEA11EC62F1E002F5D42 /* ZobmbieGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2762CEB11EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGameUITests" */;
+			buildPhases = (
+				2762CE9E1EC62F1E002F5D42 /* Sources */,
+				2762CE9F1EC62F1E002F5D42 /* Frameworks */,
+				2762CEA01EC62F1E002F5D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2762CEA41EC62F1E002F5D42 /* PBXTargetDependency */,
+			);
+			name = ZobmbieGameUITests;
+			productName = ZobmbieGameUITests;
+			productReference = 2762CEA21EC62F1E002F5D42 /* ZobmbieGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2762CE7B1EC62F1D002F5D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Pradeep;
+				TargetAttributes = {
+					2762CE821EC62F1D002F5D42 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					2762CE961EC62F1E002F5D42 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2762CE821EC62F1D002F5D42;
+					};
+					2762CEA11EC62F1E002F5D42 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2762CE821EC62F1D002F5D42;
+					};
+				};
+			};
+			buildConfigurationList = 2762CE7E1EC62F1D002F5D42 /* Build configuration list for PBXProject "ZobmbieGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2762CE7A1EC62F1D002F5D42;
+			productRefGroup = 2762CE841EC62F1D002F5D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2762CE821EC62F1D002F5D42 /* ZobmbieGame */,
+				2762CE961EC62F1E002F5D42 /* ZobmbieGameTests */,
+				2762CEA11EC62F1E002F5D42 /* ZobmbieGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2762CE811EC62F1D002F5D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2762CE911EC62F1D002F5D42 /* LaunchScreen.storyboard in Resources */,
+				2762CE8E1EC62F1D002F5D42 /* Assets.xcassets in Resources */,
+				2762CE8C1EC62F1D002F5D42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762CE951EC62F1E002F5D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762CEA01EC62F1E002F5D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2762CE7F1EC62F1D002F5D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2762CE891EC62F1D002F5D42 /* ViewController.swift in Sources */,
+				2762CE871EC62F1D002F5D42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762CE931EC62F1E002F5D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2762CE9C1EC62F1E002F5D42 /* ZobmbieGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762CE9E1EC62F1E002F5D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2762CEA71EC62F1E002F5D42 /* ZobmbieGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2762CE991EC62F1E002F5D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2762CE821EC62F1D002F5D42 /* ZobmbieGame */;
+			targetProxy = 2762CE981EC62F1E002F5D42 /* PBXContainerItemProxy */;
+		};
+		2762CEA41EC62F1E002F5D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2762CE821EC62F1D002F5D42 /* ZobmbieGame */;
+			targetProxy = 2762CEA31EC62F1E002F5D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2762CE8A1EC62F1D002F5D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2762CE8B1EC62F1D002F5D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2762CE8F1EC62F1D002F5D42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2762CE901EC62F1D002F5D42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2762CEA91EC62F1E002F5D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2762CEAA1EC62F1E002F5D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2762CEAC1EC62F1E002F5D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZobmbieGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prad.ZobmbieGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2762CEAD1EC62F1E002F5D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZobmbieGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prad.ZobmbieGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2762CEAF1EC62F1E002F5D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZobmbieGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prad.ZobmbieGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZobmbieGame.app/ZobmbieGame";
+			};
+			name = Debug;
+		};
+		2762CEB01EC62F1E002F5D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZobmbieGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prad.ZobmbieGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZobmbieGame.app/ZobmbieGame";
+			};
+			name = Release;
+		};
+		2762CEB21EC62F1E002F5D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZobmbieGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prad.ZobmbieGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZobmbieGame;
+			};
+			name = Debug;
+		};
+		2762CEB31EC62F1E002F5D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZobmbieGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = prad.ZobmbieGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZobmbieGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2762CE7E1EC62F1D002F5D42 /* Build configuration list for PBXProject "ZobmbieGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2762CEA91EC62F1E002F5D42 /* Debug */,
+				2762CEAA1EC62F1E002F5D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2762CEAB1EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2762CEAC1EC62F1E002F5D42 /* Debug */,
+				2762CEAD1EC62F1E002F5D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2762CEAE1EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2762CEAF1EC62F1E002F5D42 /* Debug */,
+				2762CEB01EC62F1E002F5D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2762CEB11EC62F1E002F5D42 /* Build configuration list for PBXNativeTarget "ZobmbieGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2762CEB21EC62F1E002F5D42 /* Debug */,
+				2762CEB31EC62F1E002F5D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2762CE7B1EC62F1D002F5D42 /* Project object */;
+}
